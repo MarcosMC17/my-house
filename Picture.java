@@ -97,4 +97,9 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    public void Atardecer()
+    {
+        sun.slowMoveVertical(100);
+        sun.makeInvisible();
+    }
 }
